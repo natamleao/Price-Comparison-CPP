@@ -20,8 +20,8 @@
  */
 class List{
     private:
-        size_t size;   ///< Número de elementos armazenados na lista
-        Egg *begin;    ///< Ponteiro para o primeiro nó da lista
+        size_t _size;   ///< Número de elementos armazenados na lista
+        Egg *_begin;    ///< Ponteiro para o primeiro nó da lista
 
         /**
          * @brief Incrementa o tamanho da lista

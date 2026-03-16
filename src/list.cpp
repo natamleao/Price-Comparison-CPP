@@ -2,6 +2,11 @@
 #include <iostream>
 #include <iomanip>
 
+/*************************************************************** PRIVATE INTERFAC *****************************************************************/
+
+void List::incrementSize(){this->_size++;}
+void List::decrementSize(){this->_size--;} 
+
 /*************************************************************** PUBLIC INTERFACE *****************************************************************/
 
 List::List(){
@@ -9,14 +14,11 @@ List::List(){
     this->setBegin(nullptr);
 }
 
-size_t List::getSize(){return this->size;}
-Egg *List::getBegin(){return this->begin;}  
+size_t List::getSize(){return this->_size;}
+Egg *List::getBegin(){return this->_begin;}  
 
-void List::incrementSize(){this->size++;}
-void List::decrementSize(){this->size--;} 
-
-void List::setSize(size_t size){this->size = size;}
-void List::setBegin(Egg *egg){this->begin = egg;}
+void List::setSize(size_t size){this->_size = size;}
+void List::setBegin(Egg *egg){this->_begin = egg;}
 
 Egg *List::searchItem(int identifier, int *f){
     Egg *aux = this->getBegin();

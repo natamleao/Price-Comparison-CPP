@@ -9,13 +9,13 @@ Egg::Egg(int identifier, float price){
     this->setNext(NULL);
 }
 
-int Egg::getIdentifier(){return this->identifier;}
-float Egg::getPrice(){return this->price;}
-Egg *Egg::getNext(){return this->next;}
+int Egg::getIdentifier(){return this->_identifier;}
+float Egg::getPrice(){return this->_price;}
+Egg *Egg::getNext(){return this->_next;}
 
 void Egg::setIdentifier(int identifier){
     if(identifier > 0){
-        this->identifier = identifier;
+        this->_identifier = identifier;
     }
     else{
         std::cout << "ERRO em setIdentifier" << std::endl;
@@ -26,7 +26,7 @@ void Egg::setIdentifier(int identifier){
 
 void Egg::setPrice(float price){
     if(price > 0.0){
-        this->price = price;
+        this->_price = price;
     }
     else{
         std::cout << "ERRO em setPrice" << std::endl;
@@ -36,7 +36,7 @@ void Egg::setPrice(float price){
 }
 
 void Egg::setNext(Egg *next){
-    this->next = next;
+    this->_next = next;
 }
 
 /**************************************************************************************************************************************************/

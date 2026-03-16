@@ -18,9 +18,9 @@
  */
 class Egg{
     private:
-        int identifier;   ///< Identificador único do ovo
-        float price;      ///< Preço do ovo
-        Egg *next;       ///< Ponteiro para o próximo nó da lista
+        int _identifier;   ///< Identificador único do ovo
+        float _price;      ///< Preço do ovo
+        Egg *_next;       ///< Ponteiro para o próximo nó da lista
 
     public:
 
