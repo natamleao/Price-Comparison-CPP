@@ -89,9 +89,9 @@ Cada nó da lista contém:
 ```
 class Egg{
     private:
-        int identifier;
-        float price;
-        Egg *next;
+        int _identifier;
+        float _price;
+        Egg *_next;
 };
 ```
 
