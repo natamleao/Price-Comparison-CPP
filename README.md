@@ -10,7 +10,8 @@
 
 ## Sobre o projeto
 
-Este projeto implementa um sistema simples para **comparação de preços de ovos de Páscoa**, utilizando **lista encadeada em C++** como estrutura de dados principal.
+> [!NOTE]
+> Este projeto implementa um sistema simples para **comparação de preços de ovos de Páscoa**, utilizando **lista encadeada em C++** como estrutura de dados principal.
 
 O programa permite registrar diferentes produtos, armazenando:
 
