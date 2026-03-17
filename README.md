@@ -24,11 +24,12 @@ O objetivo do projeto é praticar **conceitos fundamentais de programação em C
 
 ---
 
-## Tecnologias utilizadas
-
-* **C++ (padrão C++20)**
-* **GNU Make** para automação da compilação
-* Estrutura de dados: **lista encadeada**
+> [!IMPORTANT]
+> ## Tecnologias utilizadas
+>
+> * **C++ (padrão C++20)**
+> * **GNU Make** para automação da compilação
+> * Estrutura de dados: **lista encadeada**
 
 ---
 
@@ -146,13 +147,14 @@ Price-Comparison-CPP/
 
 ---
 
-## Requisitos
-
-Para compilar e executar o projeto é necessário:
-
-* **GCC ou Clang com suporte a C++20**
-* **GNU Make**
-* Sistema **Linux ou macOS**
+> [!IMPORTANT]
+> ## Requisitos
+>
+> Para compilar e executar o projeto é necessário:
+>
+> * **GCC ou Clang com suporte a C++20**
+> * **GNU Make**
+> * Sistema **Linux ou macOS**
 
 ---
 
