@@ -197,9 +197,10 @@ make cleanapp
 
 ---
 
-## Licença
-
-Este projeto está licenciado sob a **Licença MIT**.
+> [!WARNING]
+> ## Licença
+>
+> Este projeto está licenciado sob a **MIT License**.
 
 ---
 
