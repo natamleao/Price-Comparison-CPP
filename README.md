@@ -101,10 +101,10 @@ Cada nó da lista possui a seguinte estrutura:
 
 ```cpp
 class Egg{
-private:
-    int _identifier;
-    float _price;
-    Egg *_next;
+    private:
+        int _identifier;   ///< Identificador único do ovo
+        float _price;      ///< Preço do ovo
+        Egg *_next;       ///< Ponteiro para o próximo nó da lista
 };
 ```
 
