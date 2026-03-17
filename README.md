@@ -1,4 +1,4 @@
-# 🥚 Price Comparison – Easter Eggs (C++)
+# Price Comparison – Easter Eggs (C++)
 
 ![Language](https://img.shields.io/badge/language-C++-blue)
 ![Standard](https://img.shields.io/badge/standard-C++20-orange)
@@ -8,7 +8,7 @@
 
 ---
 
-# Sobre o projeto
+## Sobre o projeto
 
 Este projeto implementa um sistema simples para **comparação de preços de ovos de Páscoa**, utilizando **lista encadeada em C++** como estrutura de dados principal.
 
@@ -23,7 +23,7 @@ O objetivo do projeto é praticar **conceitos fundamentais de programação em C
 
 ---
 
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 
 * **C++ (padrão C++20)**
 * **GNU Make** para automação da compilação
@@ -31,7 +31,7 @@ O objetivo do projeto é praticar **conceitos fundamentais de programação em C
 
 ---
 
-# Conceitos aplicados
+## Conceitos aplicados
 
 Este projeto utiliza diversos conceitos importantes da linguagem C++:
 
@@ -45,18 +45,16 @@ Este projeto utiliza diversos conceitos importantes da linguagem C++:
 
 ---
 
-# Funcionalidades
+## Funcionalidades
 
-## Adicionar ovos de Páscoa
+### Adicionar ovos de Páscoa
 
 Permite adicionar novos itens à lista informando:
 
 * identificador
 * preço
 
----
-
-## Atualizar dados
+### Atualizar dados
 
 Permite modificar os dados de um item já cadastrado:
 
@@ -64,30 +62,24 @@ Permite modificar os dados de um item já cadastrado:
 * atualizar apenas o preço
 * atualizar ambos
 
----
-
-## Remover item
+### Remover item
 
 Remove um ovo de Páscoa da lista através do **identificador**.
 
----
-
-## Exibir lista
+### Exibir lista
 
 Mostra todos os itens cadastrados contendo:
 
 * identificador
 * preço
 
----
-
-## Verificar resultado
+### Verificar resultado
 
 Analisa os preços cadastrados e informa se **vale a pena ou não realizar a compra**, com base nos valores presentes na lista.
 
 ---
 
-# Representação da estrutura de dados
+## Representação da estrutura de dados
 
 A lista encadeada pode ser representada da seguinte forma:
 
@@ -110,7 +102,7 @@ class Egg{
 
 ---
 
-# Estrutura do projeto
+## Estrutura do projeto
 
 ```
 Price-Comparison-CPP/
@@ -128,7 +120,7 @@ Price-Comparison-CPP/
 
 ---
 
-# Exemplo de execução
+## Exemplo de execução
 
 ```
 +--------------------------------------------------------------------------+
@@ -153,7 +145,7 @@ Price-Comparison-CPP/
 
 ---
 
-# Requisitos
+## Requisitos
 
 Para compilar e executar o projeto é necessário:
 
@@ -163,7 +155,7 @@ Para compilar e executar o projeto é necessário:
 
 ---
 
-# Instalação
+## Instalação
 
 Clone o repositório:
 
@@ -174,7 +166,7 @@ cd Price-Comparison-CPP
 
 ---
 
-# Compilação
+## Compilação
 
 Compile o projeto com:
 
@@ -184,7 +176,7 @@ make
 
 ---
 
-# Execução
+## Execução
 
 Execute o programa com:
 
@@ -194,7 +186,7 @@ make run
 
 ---
 
-# Limpeza do projeto
+## Limpeza do projeto
 
 Remover arquivos compilados:
 
@@ -205,13 +197,13 @@ make cleanapp
 
 ---
 
-# Licença
+## Licença
 
 Este projeto está licenciado sob a **Licença MIT**.
 
 ---
 
-# Autor
+## Autor
 
 **Natam Leão Ferreira**
 
