@@ -124,8 +124,8 @@ Price-Comparison-CPP/
 ├── src/       # Código-fonte da aplicação (.cpp)
 │
 ├── Makefile   # Regras de compilação
-├── README.md  # Documentação do projeto
-└── LICENSE    # Licença do projeto
+├── README.md  # Documentação 
+└── LICENSE    # Licença
 ```
 
 ---
